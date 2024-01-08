@@ -1,0 +1,13 @@
+## Updates
++ Fix Android 9 crash
++ Fix Android 13 install
++ Better signature bypass
++ Support fake signatures for other lspatched apps (To solve some inter-app communication problem)
++ Support bootstrapping loader dynamically for local mode (No longer need to update loader after upgrading the manager)
++ [Manager] Fix a bug causing screen stuck after installing patched apps
++ [Manager] Fix opening module settings
+
+Contributors
+@577fkj @pxb1988 @Dr-TSNG @Howard20181
+
+**Full Changelog**: https://github.com/LSPosed/LSPatch/compare/v0.4...v0.5

@@ -1,0 +1,33 @@
+## Changelog
+* Fix modules missing after update loader for integrated mode
+* Fix manifest file parse failure
+* Set minimum sdk to Android 9 for patched app if original value is lower
+* Fix core version display
+* Remove mandatory original signature check
+* Fix `Map.of` crash on certain Motorola devices
+* Only add `QUERY_ALL_PACKAGES` permission when patched app in Local mode
+* Fix file permissions for Android 14
+* Select module(s) from storage feature
+* Fix `getApplicationInfo` on non-primary user
+* Remove keep alive foreground service
+* Update core to v1.9.2
+
+## 更新日志
+* 修复集成模式更新加载器导致模块丢失
+* 修复 Manifest 文件解析失败
+* 强制被修补的应用最低支持安卓 9
+* 修复核心版本显示
+* 去除不必要的签名检查
+* 修复部分摩托罗拉机型 `Map.of` 崩溃
+* 只在本地模式时添加 `QUERY_ALL_PACKAGES` 权限
+* 修复安卓 14 文件权限
+* 添加从存储里选择模块的功能
+* 修复非主要用户 `getApplicationInfo`
+* 移除前台保活服务
+* 更新核心至 v1.9.2
+
+## Contributors / 贡献者
+@5ec1cff @AAGaming00 @Dr-TSNG @harshitshah4 @Howard20181 @JasonKhew96 @JingMatrix @KrishnaSuravarapu @vvb2060 @yujincheng08
+and thank you to all the contributors who participated in the translation.
+
+**Full Changelog**: https://github.com/LSPosed/LSPatch/compare/v0.5.1...v0.6

@@ -1,0 +1,55 @@
+LSPatch is a non-root Xposed framework like Taichi but based on LSPosed. It hooks app by modifying its apk. It's still in its very early development stage, so it's somehow available but still very hard to use and unstable with tones of bug.
+
+Usage:
+Download LSPatch and unzip it, and run the `jar` file with jre. Pass `--help` as the argument to the `jar` to gain more help.
+
+Features:
+- Non-root Xposed framework by modifying apk
+- Based on LSPosed 1.3.x
+- Apk modification needs running on PC
+- Somehow support signature bypass
+- Hooked app will automatically load and activate all modules
+- Some apps that target API 30 may not load modules because of the restriction to query all packages
+- Needs to Uninstall and install the modified app
+
+Future:
+- An app that allows modifying apk on the phone
+- An app that specifying the loaded modules of an app
+- An app that helps apps targeting API 30 to load modules
+- Based on a higher and unmodified version of  LSPosed
+- Support split apks
+- Better signature bypass
+- Modify apk by patching dex instead of inserting dex
+- ...
+
+Collaborators and PRs are warmly welcome for perfecting this project. Notice that non-root frameworks are very limited. You cannot expect it to work on all kinds of apps.
+
+===
+
+LSPatch 是一款不需要 root 的 xposed 框架。类似太极但是基于 LSPosed。它以修改 apk 的形式注入应用。目前它还在非常早的开发阶段，所以非常难使用并且有一堆 bug。
+
+使用方法:
+下载 LSPatch 并解压，用 jre 运行 `jar` 文件. 传 `--help` 参数给 `jar` 文件可以获取更多使用方法。
+
+特性:
+- 修改 apk 方式实现的非 root xposed 框架
+- 基于 LSPosed 1.3.x
+- Apk 的修改仍需要用电脑完成
+- 支持一点签名绕过
+- 修改后的应用自动加载并激活所有模块
+- 一些目标 API 是 30 的应用由于不能查询所有包，所以可能不能加载模块
+- 需要完全卸载再安装 apk
+
+未来展望:
+- 一个可以在手机上修改 apk 的应用
+- 一个可以设置应用加载模块范围的应用
+- 一个可以帮助 API 30 的应用加载所有模块的应用
+- 基于更高版本的未修改的 LSPosed
+- 支持 split apk
+- 更好的签名绕过
+- 以修改 dex 方式注入而不是以插入 dex 的方式
+- ...
+
+我们非常欢迎各路协作者和 PR。注意非 root 框架能做的事非常有限，你不能期待它能在所有 app 上能工作。
+
+

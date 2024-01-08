@@ -1,0 +1,23 @@
+Modifications:
++ Replace the proxy entry point to AppComponentFactory to increase flexibility, but now **only support Android 9+**
++ Better signature bypass, although it may not work completely on some devices
++ No longer load installed modules, but only the embedded ones
++ Support always setting the versionCode to 1 for degraded installation. If this function is enabled, the versionCode actually obtained by the application is still correct in most cases
+
+Future:
++ LSPatch manager
++ Support split apks
++ Support dynamic upgrade of core version, just upgrading the manager without repackaging each application
+
+#
+
+更改:
++ 将代理入口点更换为 AppComponentFactory，增加灵活性但**最低只支持安卓9+**
++ 更好的过签，虽然在部分设备上可能工作不完全
++ 不再主动加载已安装模块，只会加载内置模块
++ 支持将版本号始终设为1实现降级安装，如果开启此功能，应用实际获取到的版本号大多数情况下仍然是正确的
+
+未来展望:
++ LSPatch 管理器
++ 支持 split apk
++ 支持动态升级核心版本，只需升级管理器而不需要重新打包每个应用

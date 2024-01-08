@@ -1,0 +1,16 @@
+## Updates
++ Support Android 13
++ Fix an AndroidManifest modification bug
++ Fix module not loaded after update
++ Delete signing V1 signature option since not necessary
++ [Manager] Support module scope
++ [Manager] Support launch modules from manager
++ [Manager] Support update loader version from manager
++ [Manager] Fix patching failed on some devices
++ [Manager] Refresh app list on installing/uninstalling apps
+
+## New Contributors
+* @Howard20181 made their first contribution in https://github.com/LSPosed/LSPatch/pull/80
+* @nonnonstop made their first contribution in https://github.com/LSPosed/LSPatch/pull/107
+
+**Full Changelog**: https://github.com/LSPosed/LSPatch/compare/v0.3.1...v0.4

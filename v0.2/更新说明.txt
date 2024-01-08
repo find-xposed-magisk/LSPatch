@@ -1,0 +1,7 @@
+Modifications:
++ Support Android 12
+
+#
+
+更改:
++ 支持安卓12

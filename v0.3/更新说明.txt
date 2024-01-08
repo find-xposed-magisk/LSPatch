@@ -1,0 +1,8 @@
+Modifications:
++ Better support for Android 12+
++ Refactor core to main branch LSPosed
++ Support custom keystone
++ LSPatch manager (WIP)
+
+Known issues:
++ If using local patch mode, it is required to keep LSPatch manager alive manually

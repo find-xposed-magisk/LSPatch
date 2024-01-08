@@ -1,0 +1,12 @@
+Modifications:
+
+1. Fix module not loading on first run
+2. Fix some crashes
+3. [Manager] Support select apks from local storage
+4. [Manager] Show patched apps on manage page since 0.3.1 (Module scope is still WIP)
+5. [Manager] Update translations 
+
+Known issues:
+
+1. If using local patch mode, it is required to keep LSPatch manager alive manually
+2. Native crash on WSA Android 12

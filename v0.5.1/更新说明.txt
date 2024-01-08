@@ -1,0 +1,9 @@
+## Updates
++ Better signature bypass
++ Use service instead of content provider to send binder
++ [Manager] Support foreground keep alive
+
+Contributors
+@Dr-TSNG @Howard20181 @yujincheng08
+
+**Full Changelog**: https://github.com/LSPosed/LSPatch/compare/v0.5...v0.5.1
